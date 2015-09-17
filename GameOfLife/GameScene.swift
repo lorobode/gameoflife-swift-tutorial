@@ -9,14 +9,26 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    let _gridWidth = 400
+    let _gridHeight = 300
+    let _numRows = 8
+    let _numCols = 10
+    let _gridLowerLeftCorner:CGPoint = CGPoint(x: 158, y: 10)
+    
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        let background = SKSpriteNode(imageNamed: "background.png")
+        background.anchorPoint = CGPoint(x: 0, y: 0)
+        background.size = self.size
+        background.zPosition = -2
+        self.addChild(background)
         
-        self.addChild(myLabel)
+        let gridBackground = SKSpriteNode(imageNamed: "grid.png")
+        gridBackground.size = CGSize(width: _gridWidth, height: _gridHeight)
+        gridBackground.zPosition = -1
+        gridBackground.anchorPoint = CGPoint(x:0, y:0)
+        gridBackground.position = _gridLowerLeftCorner
+        self.addChild(gridBackground)
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {

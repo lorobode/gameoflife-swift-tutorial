@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		A17F591B1BAA5C7100AA0585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F591A1BAA5C7100AA0585 /* AppDelegate.swift */; };
 		A17F591D1BAA5C7100AA0585 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A17F591C1BAA5C7100AA0585 /* GameScene.sks */; };
-		A17F591F1BAA5C7100AA0585 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F591E1BAA5C7100AA0585 /* GameScene.swift */; };
 		A17F59211BAA5C7100AA0585 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F59201BAA5C7100AA0585 /* GameViewController.swift */; };
 		A17F59241BAA5C7100AA0585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17F59221BAA5C7100AA0585 /* Main.storyboard */; };
 		A17F59261BAA5C7100AA0585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17F59251BAA5C7100AA0585 /* Images.xcassets */; };
 		A17F59291BAA5C7100AA0585 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17F59271BAA5C7100AA0585 /* LaunchScreen.xib */; };
 		A17F59351BAA5C7100AA0585 /* GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F59341BAA5C7100AA0585 /* GameOfLifeTests.swift */; };
+		A17F59401BAA65AB00AA0585 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F591E1BAA5C7100AA0585 /* GameScene.swift */; };
+		A17F59421BAA65FE00AA0585 /* GameOfLifeAssets in Resources */ = {isa = PBXBuildFile; fileRef = A17F59411BAA65FE00AA0585 /* GameOfLifeAssets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A17F592E1BAA5C7100AA0585 /* GameOfLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17F59331BAA5C7100AA0585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A17F59341BAA5C7100AA0585 /* GameOfLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeTests.swift; sourceTree = "<group>"; };
+		A17F59411BAA65FE00AA0585 /* GameOfLifeAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GameOfLifeAssets; path = "../../../Downloads/GameOfLife-SK-Swift-master/GameOfLifeSwift/GameOfLifeAssets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		A17F590C1BAA5C7100AA0585 = {
 			isa = PBXGroup;
 			children = (
+				A17F59411BAA65FE00AA0585 /* GameOfLifeAssets */,
 				A17F59171BAA5C7100AA0585 /* GameOfLife */,
 				A17F59311BAA5C7100AA0585 /* GameOfLifeTests */,
 				A17F59161BAA5C7100AA0585 /* Products */,
@@ -201,6 +204,7 @@
 				A17F59291BAA5C7100AA0585 /* LaunchScreen.xib in Resources */,
 				A17F59261BAA5C7100AA0585 /* Images.xcassets in Resources */,
 				A17F591D1BAA5C7100AA0585 /* GameScene.sks in Resources */,
+				A17F59421BAA65FE00AA0585 /* GameOfLifeAssets in Resources */,
 				A17F59241BAA5C7100AA0585 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A17F591F1BAA5C7100AA0585 /* GameScene.swift in Sources */,
+				A17F59401BAA65AB00AA0585 /* GameScene.swift in Sources */,
 				A17F59211BAA5C7100AA0585 /* GameViewController.swift in Sources */,
 				A17F591B1BAA5C7100AA0585 /* AppDelegate.swift in Sources */,
 			);

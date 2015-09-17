@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>835EC42C-E39F-408F-A058-39AC74FBD5BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AB067F36C885D5E57CC3977ED2BDBBF723AF155A</key>
+		<string>github.com:lorobode/gameoflife-swift-tutorial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GameOfLife.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AB067F36C885D5E57CC3977ED2BDBBF723AF155A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:lorobode/gameoflife-swift-tutorial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AB067F36C885D5E57CC3977ED2BDBBF723AF155A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AB067F36C885D5E57CC3977ED2BDBBF723AF155A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GameOfLife</string>
+		</dict>
+	</array>
+</dict>
+</plist>
